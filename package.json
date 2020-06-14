@@ -1,0 +1,23 @@
+{
+  "name": "@fakit/vue-style-box",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./src/StyleBox.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fa-kit/vue-style-box.git"
+  },
+  "keywords": [
+    "style",
+    "adoptive"
+  ],
+  "author": "iAmStudio <info@i-am.studio>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fa-kit/vue-style-box/issues"
+  },
+  "homepage": "https://github.com/fa-kit/vue-style-box#readme"
+}
