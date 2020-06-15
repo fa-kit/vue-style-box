@@ -50,7 +50,7 @@ export default {
              * @return {array} filteredStyleQueries — Array of user rules. 
              * Styles object included in it.
              */
-            return this.styleQueries.filter(query => {
+            return this.styleQueries ? this.styleQueries.filter(query => {
                 let querySize = '';
                 if(query.size.endsWith('px')) querySize = query.size;
                 else {
@@ -68,7 +68,7 @@ export default {
                 }
 
                 return this.windowResize * 0;
-            })
+            }) : [];
         },
         stylesFromQueries() {
             /**
